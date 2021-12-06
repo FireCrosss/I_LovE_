@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+	<meta charset="utf-8">
+
+	<title>ll</title>
+    <link rel="stylesheet" href="estylos.css">
+    <script>
+        function accion_para_cuando_ella_diga_que_si(){
+            alert('ahora ya somos novios');
+        }
+        function mueve_el_boton(){
+            width = window.innerWidth;
+            height = window.innerHeight;
+
+            newWidth = (Math.random() * width);
+            newHeight = (Math.random() * height);
+
+            document.getElementById('bno').style.position = "absolute";
+            document.getElementById('bno').style.left = newWidth + "px";
+            document.getElementById('bno').style.top = newHeight + "px";
+        }
+    </script>
+</head>
+<body>
+    <div class="cuadro">
+     <h1>Quieres ser mi novia?</h1>
+    <input  type="button" id="si" onclick="accion_para_cuando_ella_diga_que_si()" id="btnsi" value="si"/>
+    <input  type="button" id="bno" onmouseover="mueve_el_boton()"  value="no" />
+   
+    </div>
+    
+</body>
+</html>

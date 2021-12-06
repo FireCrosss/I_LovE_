@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(c.jpg) ;
+    opacity: .8;
+    
+
+
+}
+div{
+    padding-top: -80px;
+}
+.cuadro{
+    height: 500px;
+    width: 500px;
+    padding: 70px;
+    background: rgb(64, 68, 67);
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    opacity: .8;
+}
+.cuadro h1{
+    
+    font-size: 20px;
+    padding: 10px;
+    background: rgb(57, 156, 123);
+    border-radius: 10%;
+}
+#si{
+    display: block;
+    width: 40px;
+    height: 30px;
+    font-size: 15px;
+    background: rosybrown;
+    position: absolute ;
+    top: 255px;
+    font-weight: 700;
+    
+}
+#bno{
+    display: block;
+    font-weight: 700;
+    width: 40px;
+    height: 30px;
+    font-size: 15px;
+    background: rosybrown;  
+    position: absolute ;
+    left: 63%;
+    top: 255px;
+}
+@media
